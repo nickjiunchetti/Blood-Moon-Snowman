@@ -1,0 +1,21 @@
+background(0, 0, 0);
+// The ground
+fill(255, 0, 0);
+rect(0, 300, 400, 100);  
+
+// The sun
+fill(184, 51, 51);
+ellipse(80, 64, 100, 100);  
+
+// The snowman
+fill(10, 10, 10);
+ellipse(200, 300, 150, 150);
+ellipse(200, 200, 100, 100);
+ellipse(200, 120, 75, 75);
+//smile
+fill(255,255,255);
+ellipse(200,134,32,15);
+//delete half elipse
+fill(10, 10, 10);
+stroke(10, 10, 10);
+ellipse(200,130,32,11);
